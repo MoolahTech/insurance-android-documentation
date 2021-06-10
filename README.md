@@ -221,7 +221,7 @@ The possible statuses are: `'pending', 'completed', 'error'`
 
 ### Get policy details and pdf
 
-**GET** ($BASE_URL)**/partners/<provider(chola, icici_lombard etc)>/policies/<partnerTransactionId>**
+**GET** ($BASE_URL)**/partners/<provider(chola, icici_lombard etc)>/policies/<partnerTransactionId(ID passed in during creation)>**
 
 Headers:
 | name | type | example |
