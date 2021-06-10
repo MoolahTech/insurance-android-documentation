@@ -219,3 +219,27 @@ Params sent:
 ```
 The possible statuses are: `'pending', 'completed', 'error'`
 
+### Get policy details and pdf
+
+**GET** ($BASE_URL)**/partners/<provider(chola, icici_lombard etc)>/policies/<partnerTransactionId>**
+
+Headers:
+| name | type | example |
+| ---- | ---- |:-------:|
+| X-PARTNER-ACCESS-KEY | string | abcde |
+| X-USER-IDENTITY-TOKEN | string | xyzab |
+
+_Response:_
+
+Headers:
+| name | type | example |
+| ---- | ---- |:-------:|
+| Content-Type | string | application/json |
+
+Body:
+| name | type | example |
+| ---- | ---- |:-------:|
+| payment_status | string | pending |
+| coverage_amount | double | 50000.0 |
+| end_date | date | 01/01/2025 |
+| pdf_link | string | https://www.example.com |
