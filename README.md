@@ -141,6 +141,19 @@ this.startActivity(intent)
 * `errorCode`
 * `message`
 
+Sample flow of the activity:
+
+<p float="left">
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%201.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%203.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%208.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%209.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%202.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%2010.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%205.png" width="200" height="356" />
+        <img src="https://github.com/MoolahTech/insurance-android-documentation/blob/main/Android%20-%204.png" width="200" height="356" />
+</p>
+
 ## Callbacks
 
 The insurance transaction can be in various states, which are communicated with you via callbacks.
